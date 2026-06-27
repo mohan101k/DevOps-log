@@ -13,7 +13,7 @@ Personal learning log for DevOps Bootcamp 2026. Documenting class notes, hands-o
 |-----|-------|-------|-----|
 | 1 | Cloud intro, DevOps lifecycle, roles | ✅ | — |
 | 2 | Architecture and Virtulisation, monolithic and Microservies | ✅ | — |
-| 3 |   | ✅ | — |
+| 3 | Hyerviser Ansd Docker Fundamentals | ✅ | — |
 
 
 
