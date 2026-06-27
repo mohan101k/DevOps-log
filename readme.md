@@ -12,17 +12,11 @@ Personal learning log for DevOps Bootcamp 2026. Documenting class notes, hands-o
 | Day | Topic | Notes | Lab |
 |-----|-------|-------|-----|
 | 1 | Cloud intro, DevOps lifecycle, roles | ✅ | — |
-| 2 | DevOps intro, DevOps Requred tool Basic Intro | ✅ | — |
-| 3 | Monolithic And Microservies , Virtulisation , | ✅ | — |
+| 2 | Architecture and Virtulisation, monolithic and Microservies | ✅ | — |
+| 3 |   | ✅ | — |
 
 
 
 
 
-## Repo Structure
 
-```
-devops-log/
-├── README.md
-├── Docs/
-│   ├── day-01-Cloud-intro.md
