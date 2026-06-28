@@ -15,6 +15,7 @@ Personal learning log for DevOps Bootcamp 2026. Documenting class notes, hands-o
 | 2 | Architecture and Virtulisation, monolithic and Microservies | ✅ | — |
 | 3 | Hyerviser Ansd Docker Fundamentals | ✅ | — |
 | 3 | AWS Account Creation,Plural Sight ,region availibilty zone | ✅ | — |
+| 3 | VPC ,Subnet | ✅ | — |
 
 
 
