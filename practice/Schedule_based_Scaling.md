@@ -52,4 +52,130 @@ Schedule-Based Scaling is an Auto Scaling feature that automatically launches or
 
 <img width="1536" height="1024" alt="ChatGPT Image Jul 30, 2026, 11_43_06 AM" src="https://github.com/user-attachments/assets/eaf522c9-4ccc-42e4-9688-276274b00d95" />
 
+🚀 Real-Time Scenario: E-commerce Company (Amazon / Flipkart / Myntra)
+Situation
+
+Today is Big Billion Day Sale.
+
+Normally:
+
+Time: 12:00 AM - 7:00 PM
+Users: 8,000
+Required EC2 Servers: 2
+
+But every day at 8:00 PM, the flash sale starts.
+
+8:00 PM - 11:00 PM
+
+Users increase:
+
+8,000
+↓
+
+80,000+
+
+Traffic becomes 10x higher.
+
+If only 2 EC2 instances are running:
+
+CPU becomes 100%
+Website becomes slow
+Users cannot place orders
+Payments fail
+Customers leave the website
+Company loses revenue
+Company Solution
+
+The DevOps team knows that:
+
+Every day at 8 PM, traffic always increases.
+
+Instead of waiting for CPU to increase, they use Schedule-Based Scaling.
+
+They tell AWS:
+
+Every day at 7:55 PM
+
+Launch 8 EC2 instances automatically.
+
+Now:
+
+2 Existing
+
++
+
+8 New
+
+=
+
+10 EC2 Instances
+
+Traffic is shared across all instances.
+
+Website remains fast.
+
+After Sale Ends
+
+At 11:30 PM
+
+Traffic becomes normal again.
+
+Now running 10 EC2 instances is expensive.
+
+So AWS automatically terminates 8 instances.
+
+Remaining:
+
+2 EC2 Instances
+
+Company saves money.
+
+Real Architecture
+Customers
+      │
+      ▼
+Internet
+      │
+      ▼
+Route 53
+      │
+      ▼
+Application Load Balancer
+      │
+      ▼
+Target Group
+      │
+      ▼
+Auto Scaling Group
+      │
+      ▼
+EC2
+EC2
+EC2
+EC2
+EC2
+EC2
+EC2
+EC2
+EC2
+EC2
+Why Schedule-Based Scaling?
+
+Because the company already knows when traffic will increase.
+
+Examples:
+
+Big Billion Day
+Amazon Prime Day
+IPL Match starts at 7:30 PM
+Cricket World Cup
+Black Friday
+Cyber Monday
+New Year Sale
+Daily Office Login at 9 AM
+Salary Credit Day
+Monthly Billing Process
+
+All of these happen at a fixed time, so scheduled scaling is ideal.
+
 
