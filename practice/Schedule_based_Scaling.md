@@ -49,3 +49,7 @@ Isse performance bhi maintain hoti hai aur cost bhi optimize hoti hai.
 Q: What is Schedule-Based Scaling?
 
 Schedule-Based Scaling is an Auto Scaling feature that automatically launches or terminates EC2 instances at predefined dates and times. It is useful for applications with predictable traffic patterns, such as office-hour workloads.
+
+<img width="1536" height="1024" alt="ChatGPT Image Jul 30, 2026, 11_43_06 AM" src="https://github.com/user-attachments/assets/eaf522c9-4ccc-42e4-9688-276274b00d95" />
+
+
