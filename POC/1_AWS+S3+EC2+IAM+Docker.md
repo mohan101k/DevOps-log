@@ -286,4 +286,3 @@ I started with a simple HTML page, hosted it on S3, downloaded it to an EC2 inst
 
 The project strengthened my practical understanding of cloud infrastructure, Linux administration, containerization, access management, and web deployment.
 
-**This is a learning project and a foundation for future DevOps automation and CI/CD projects.**
